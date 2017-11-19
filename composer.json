@@ -1,5 +1,14 @@
 {
   "name": "swoole-ant/ant-lib",
   "version": "0.0.1",
-  "dependencies": "public library"
+  "dependencies": "public library",
+  "autoload": {
+    "common" : "common/",
+    "ctrl" : "ctrl/",
+    "dao" : "dao/",
+    "entity" : "entity/",
+    "exceptionHandler" : "exceptionHandler/",
+    "service" : "service/",
+    "socket" : "socket/"
+  }
 }
