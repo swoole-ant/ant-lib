@@ -4,13 +4,13 @@
   "dependencies": "public library",
   "autoload": {
     "psr-4": {
-      "common": "common/",
-      "ctrl": "ctrl/",
-      "dao": "dao/",
-      "entity": "entity/",
-      "exceptionHandler": "exceptionHandler/",
-      "service": "service/",
-      "socket": "socket/"
+      "common\\": "common/",
+      "ctrl\\": "ctrl/",
+      "dao\\": "dao/",
+      "entity\\": "entity/",
+      "exceptionHandler\\": "exceptionHandler/",
+      "service\\": "service/",
+      "socket\\": "socket/"
     }
   }
 }
